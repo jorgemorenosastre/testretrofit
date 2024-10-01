@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <Button
+        android:id="@+id/buttonPopularMovies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Películas Populares"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/buttonSearchMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Película"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonMovieDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalles de Película"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
